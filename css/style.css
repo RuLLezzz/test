@@ -1,0 +1,376 @@
+html {padding: 0; margin: 0;}
+body {padding: 0; margin: 0; position: relative; font-family: 'ProximaNova'; float: left; width: 100%;}
+img {border: none;}
+
+
+.middleblock {
+	margin: 0 auto;
+	position: relative;
+	width: 1200px;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	min-width: 320px;
+	display: table;
+	table-layout: fixed;
+}
+
+.header {
+	width: 100%;
+    float: left;
+    background: rgb(27, 51, 69);
+    color: white;
+    box-shadow: inset 0 60px 60px -30px rgba(40,40,40,1);
+    z-index: 100;
+    position: relative;
+}
+.header img {
+	width: 200px;
+	float: left;
+	margin: 30px 0px;
+}
+
+
+.header .contact {
+	display: inline-block;
+	margin: 29px 19px 2px 26%;
+}
+
+.header .contact a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin: 5px 10px;
+	padding: 3px 0;
+	font: 23px arial;
+	font-weight: 600;
+
+}
+
+.header .zak_zvonok {
+	display: inline-block;
+	padding: 15px;
+	background: #e6961b;
+	font: 19px arial;
+	float: right;
+	margin: 48px 0px 22px 20px;
+	color: #272829;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.header .zak_zvonok:hover {
+	background: #ff7f00;
+}
+
+.zag_blok {
+    text-decoration: none;
+    display: block;
+    padding: 35px 0 0px 0;
+    font: 38px arial;
+    font-weight: 600;
+    text-align: center;
+}
+
+#content {
+	background: url(../img/per-fon2.jpg) no-repeat;
+}
+
+#content .middleblock {
+    background: rgba(255,255,255,0.5);
+    height: 682px;
+}
+
+#content .zag_per_fon {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 140px 15%;
+	padding: 3px 0;
+	font: 38px arial;
+	font-weight: 600;
+	text-align: center;
+}
+
+#content .verh_menu {
+	text-align: center;
+}
+
+#content .verh_menu ul {
+	display: inline-block;
+	margin: auto;
+}
+
+#content .verh_menu li {
+    list-style-type: none;
+    float: left;
+    margin-top: 49px;
+    background: rgba(230, 150, 27, 0.6);
+    padding: 9px 20px;
+    color: #1d303f;
+    font: 15px Arial;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#content .verh_menu li:hover {
+	background: rgba(230, 150, 27, 1);
+}
+#uslugi {
+	background: url(../img/fon4.jpg) center 0px repeat-x;
+	height: 815px;
+	overflow: hidden;
+	background-size: cover;
+}
+
+#uslugi .middleblock {
+    background: rgba(255,255,255,0.5);
+    height: 815px;
+}
+
+#uslugi .uslu {
+	color: #1b3344;
+}
+
+#uslugi .usluga {
+    position: relative;
+    display: inline-block;
+    width: 518px;
+    height: 288px;
+    margin: 40px;
+    float: left;
+    overflow: hidden;
+}
+
+#uslugi .us1 {
+	background: url(../img/us1.jpg);
+}
+#uslugi .us2 {
+	background: url(../img/us2.jpg);
+}
+#uslugi .us3 {
+	background: url(../img/us3.jpg);
+}
+#uslugi .us4 {
+	background: url(../img/us4.jpg);
+}
+
+#uslugi .usluga .title_zag {
+    top: 44%;
+    left: 27%;
+    transition: all 0.5s ease;
+    position: absolute;
+    color: #fff;
+    font-family: arial;
+    font-size: 25px;
+}
+
+#uslugi .usluga .description {
+	top: 100%;
+	margin-left: 30px;
+	transition: all 0.5s ease;
+	position: absolute;
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+	width: 90%;
+}
+#uslugi .usluga:hover .title_zag {
+	top: 10%; 
+}
+#uslugi .usluga:hover .description {
+	top: 40%;
+}
+
+	
+
+#proekty .proe {
+	color: #fff;
+}
+
+#proekty {
+	background: #123;
+	height: 510px;
+	overflow: hidden;
+	background-size: cover;
+}
+
+#proekty .middleblock {
+    background: rgba(255,255,255,0.2);
+    height: 510px;
+}
+
+#proekty .catalog_proekt {
+	margin-top: 30px;
+}
+
+#proekty .proekt {
+	position: relative;
+    display: inline-block;
+    width: 33%;
+    margin: 1px;
+    text-align: center;
+    float: left;
+}
+#proekty .proekt img {
+    margin: auto;
+}
+
+#proekty .proekt .zag_proekt {
+	font: 20px arial;
+    font-weight: 600;
+    display: inline-block;
+    color: #ff9f00;
+    padding: 20px;
+}
+
+#proekty .proekt .posmot {
+	display: none;
+}
+
+#proekty .proekt:hover .posmot {
+    display: inline-block;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -202px;
+    z-index: 60;
+    padding: 10px 31px;
+    font-family: arial;
+    font-size: 21px;
+    color: #ff9f00;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#proekty .proekt:hover:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 2px;
+    height: 84%;
+    margin-bottom: 60px;
+    width: 75%;
+    margin-left: 12.5%;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#proekty .proekt:hover{
+    cursor: pointer;
+}
+
+#forma {
+	background: #fff;
+	height: 510px;
+	overflow: hidden;
+	background-size: cover;
+}
+
+#forma .middleblock {
+    background: rgb(237, 241, 244);
+    height: 510px;
+}
+
+
+#forma form {
+	text-align: center;
+}
+#forma .required {
+	font-family: sans-serif;
+	width: 52%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 31px;
+	border-radius: 4px;
+	padding: 0 7px;
+	color: #000;
+	border: none;
+	background: #ffffff;
+}
+#forma .required2 {
+	font-family: sans-serif;
+	width: 52%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 31px;
+	border-radius: 4px;
+	padding: 0 7px;
+	color: #000;
+	border: none;
+	background: #ffffff;
+}
+
+#forma .required::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+#forma .required::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+#forma .required:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+#forma .required:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+#forma .required:focus::-webkit-input-placeholder {text-indent: 900px; transition: text-indent 0.3s ease;}
+#forma .required:focus::-moz-placeholder          {text-indent: 900px; transition: text-indent 0.3s ease;}
+#forma .required:focus:-moz-placeholder           {text-indent: 900px; transition: text-indent 0.3s ease;}
+#forma .required:focus:-ms-input-placeholder      {text-indent: 900px; transition: text-indent 0.3s ease;}
+
+#forma #submit_form {
+	background: #e6961b;
+	color: #123;
+	font-weight: 900;
+	font: 22px arial;
+	height: 50px;
+}
+
+
+#footer {
+	width: 100%;
+    float: left;
+    background: rgb(27, 51, 69);
+    color: white;
+    box-shadow: inset 0 60px 60px -30px rgba(40,40,40,1);
+    z-index: 100;
+    position: relative;
+}
+#footer img {
+	width: 200px;
+	float: left;
+	margin: 30px 0px;
+}
+
+
+#footer .contact {
+	display: inline-block;
+	margin: 29px 19px 2px 26%;
+}
+
+#footer .contact a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin: 5px 10px;
+	padding: 3px 0;
+	font: 23px arial;
+	font-weight: 600;
+
+}
+
+#footer .zak_zvonok {
+	display: inline-block;
+	padding: 15px;
+	background: #e6961b;
+	font: 19px arial;
+	float: right;
+	margin: 48px 0px 22px 20px;
+	color: #272829;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#footer .zak_zvonok:hover {
+	background: #ff7f00;
+}
