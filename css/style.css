@@ -74,7 +74,7 @@ img {border: none;}
 }
 
 #content {
-	background: url(../img/per-fon2.jpg) no-repeat;
+	background: url(/images/per-fon2.jpg) no-repeat;
     background-position: center;
 }
 
@@ -126,7 +126,7 @@ img {border: none;}
 	background: rgba(230, 150, 27, 1);
 }
 #uslugi {
-	background: url(../img/fon4.jpg) center 0px repeat-x;
+	background: url(/images/fon4.jpg) center 0px repeat-x;
 	height: 815px;
 	overflow: hidden;
 	background-size: cover;
@@ -152,16 +152,16 @@ img {border: none;}
 }
 
 #uslugi .us1 {
-	background: url(../img/us1.jpg);
+	background: url(/images/us1.jpg);
 }
 #uslugi .us2 {
-	background: url(../img/us2.jpg);
+	background: url(/images/us2.jpg);
 }
 #uslugi .us3 {
-	background: url(../img/us3.jpg);
+	background: url(/images/us3.jpg);
 }
 #uslugi .us4 {
-	background: url(../img/us4.jpg);
+	background: url(/images/us4.jpg);
 }
 
 #uslugi .usluga .title_zag {
@@ -383,4 +383,44 @@ img {border: none;}
 
 #footer .zak_zvonok:hover {
 	background: #ff7f00;
+}
+
+
+.pweb-labels-inline form.pwebcontact-form .pweb-label {
+    font: 17px arial;
+    padding-top: 7px;
+}
+
+.pweb-form-blue.pweb-shadow form.pwebcontact-form input.pweb-input {
+    font-family: sans-serif;
+    height: 34px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+    padding: 0 7px;
+    color: #000;
+    border: none;
+    background: #ffffff;
+}
+
+.pweb-chars-counter {
+	    display: none;
+}
+
+#pwebcontact92_send {
+	background: #e6961b;
+    color: #123!important;
+    font-weight: 900;
+    font: 22px arial;
+    cursor: pointer;
+    width: 52%;
+    height: 44px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 31px;
+    border-radius: 4px;
+    padding: 0 7px;
+    border: none;
 }
